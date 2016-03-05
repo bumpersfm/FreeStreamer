@@ -199,11 +199,11 @@
  * set your own blocks to the stream but use the blocks
  * provides by FSAudioController.
  */
-@property (readonly) FSAudioStream *activeStream;
+@property (readonly, nullable) FSAudioStream *activeStream;
 /**
  * The playlist item the controller is currently using.
  */
-@property (nonatomic,readonly) FSPlaylistItem *currentPlaylistItem;
+@property (nonatomic,readonly, nullable) FSPlaylistItem *currentPlaylistItem;
 
 /**
  * This property determines if the next playlist item should be loaded
